@@ -37,3 +37,7 @@
 * Analyze the trend between time and book type
 
 #### Analysis 3. Using Archived NYT API 
+
+* Given the same dataset as analysis 1, try to find out how many original articles each writer wrote
+* Major issue to deal with is co-writers
+* When multiple people contributed to an article, the format for writer usually is: A and B, or A, B, C and D
