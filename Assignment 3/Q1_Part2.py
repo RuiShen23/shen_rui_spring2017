@@ -124,5 +124,5 @@ df_output.sum()
 
 # In[20]:
 
-df_output.to_csv(os.getcwd()+'/Q1_Part2_output.csv')
+df_output.sum().to_csv(os.getcwd()+'/Q1_Part2_output.csv')
 
