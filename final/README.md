@@ -9,6 +9,11 @@
 * I performed some easy and simple calculations such as count the number of movies produced each year, count the number of movies rating > 3 and =5 each year.
 * I've used matplotlib bar plot and line plot for each count to visualize the results.
 * One interesting fact for above counts is that no matter how many movies were produced in a year, the movies that rates over three is always around half of all movies. In the contrast, movies with a round rating 5 (>4.5) is always rare. This can be caused by either the movie was really good that everyone likes it, or only a few people rated the movie.
+![ana_1_1](analysis/plots/ana_1_movie_number_by_year.png)
+![ana_1_2](analysis/plots/ana_1_movie_avg_rating_over_3.png)
+![ana_1_3](analysis/plots/ana_1_movie_avg_rating_around_5.png.png)
+![ana_1_4](analysis/plots/ana_1_combine.png)
+
 
 ### Analysis 2. 
 
@@ -16,6 +21,9 @@
 * I did some calculations such as yearly movie average rating (based on movie produced year), yearly average number of rating each user gave (based on user rating timestamp), and also analyze whether previous rating will influence the rest users.
 * I've used and line plot for each of the questions.
 * As the last graph in my notebook shows, after some big changes at the beginning, the change of average rating tend to be gentle. However, there are some little turns for each movie and after these little turns, movie's average rating tend to follow the turn (no matter it's going up or down). I would say that previous rating will influence how others going to rate the movie, but further validation requires more detailed analysis.
+![ana_2_1](analysis/plots/ana_2_movie_avg_rating_by_year.png)
+![ana_2_2](analysis/plots/ana_2_user_involvement_by_year.png)
+![ana_2_3](analysis/plots/ana_2_movie_rating_over_time.png)
 
 
 ### Analysis 3.
@@ -23,13 +31,20 @@
 * This analysis focus on movie genres. I analyzed the quantity and percentage of each movie genre in year 1995-2005.
 * For this question, I've used line plot, stacked bar chart and multiple bar chart.
 * I was surprisingly found out that Drama and Comedy are the most popular genres and the trend keeps increasing. Also, even the quantity and percentage of Documentary is increasing and growing faster than Sci-Fi movies.
+![ana_3_1](analysis/plots/ana_3_movie_genre_percentage_by_year1.png)
+![ana_3_2](analysis/plots/ana_3_movie_genre_percentage_by_year2.png)
+![ana_3_3](analysis/plots/ana_3_movie_genre_compare.png)
 
 
 ### Analysis 4. 
 
 * This analysis follows analysis_3 to further analyze the tag words in Drama and Comedy genres.
 * The idea of this analysis was to find out which words were used more often for these genres and can better represent a genre.
-* I used word cloud to show the results, the png files are availble in '/final/analysis' folder.
+* I used word cloud to show the results.
+![ana_4_1](analysis/plots/ana_4_drama_tags.png)
+![ana_4_2](analysis/plots/ana_4_comedy_tags.png)
+![ana_4_3](analysis/plots/ana_4_scifi_tags.png)
+
 
 ### Analysis 5. 
 
